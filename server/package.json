@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
+    "docker-build": "./scripts/build.sh",
     "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
   },
   "dependencies": {
