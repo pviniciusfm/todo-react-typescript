@@ -1,0 +1,7 @@
+{
+  "ignore": [".git", "node_modules/**/node_modules"],
+  "env": {
+    "MONGO_USER": "root",
+    "MONGO_PASSWORD": "example"
+  }
+}
